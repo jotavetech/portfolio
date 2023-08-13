@@ -155,12 +155,24 @@ html {
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
+  padding: 5px;
 }
 #social img {
   width: 30px;
   height: 30px;
 }
 
+@media screen and (max-width: 768px) {
+  #social {
+    height: 60px;
+    width: 40px;
+    bottom: 60px;
+  }
+  #social img {
+    width: 20px;
+    height: 20px;
+  }
+}
 body {
   background: #fff;
 }
