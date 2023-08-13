@@ -4,6 +4,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
+  position: relative;
 
   h2 {
     margin-top: 70px;
@@ -51,6 +52,42 @@
       color: $link-color;
       font-size: 16px;
       cursor: pointer;
+      transition: color 0.2s;
+    }
+
+    button:hover {
+      color: $link-color-hover;
+    }
+  }
+
+  footer {
+    position: absolute;
+    bottom: 0;
+    font-size: 16px;
+    background: $bg-secondary;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    color: $color-secondary;
+
+    p {
+      margin-bottom: 20px;
+    }
+
+    nav {
+      display: flex;
+      gap: 30px;
+      a {
+        color: #e4e4e4;
+        font-weight: 300;
+      }
+
+      a:hover {
+        color: #fefefe;
+      }
     }
   }
 }

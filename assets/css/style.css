@@ -72,6 +72,15 @@ html {
   background-color: #000;
 }
 
+a {
+  color: #0076ff;
+  transition: color 0.2s;
+}
+
+a:hover {
+  color: #004697;
+}
+
 #header {
   display: flex;
   justify-content: space-between;
@@ -143,6 +152,7 @@ html {
   }
 }
 #social {
+  z-index: 10;
   position: fixed;
   left: 0;
   bottom: 100px;
@@ -197,7 +207,6 @@ html {
 #projects ul li .presentation a {
   font-size: 20px;
   margin-top: 5px;
-  color: #0076ff;
 }
 #projects ul li .preview > div {
   width: 100%;
@@ -241,6 +250,7 @@ html {
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
+  position: relative;
 }
 #contact h2 {
   margin-top: 70px;
@@ -284,6 +294,37 @@ html {
   color: #0076ff;
   font-size: 16px;
   cursor: pointer;
+  transition: color 0.2s;
+}
+#contact form button:hover {
+  color: #004697;
+}
+#contact footer {
+  position: absolute;
+  bottom: 0;
+  font-size: 16px;
+  background: #000;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  color: #fff;
+}
+#contact footer p {
+  margin-bottom: 20px;
+}
+#contact footer nav {
+  display: flex;
+  gap: 30px;
+}
+#contact footer nav a {
+  color: #e4e4e4;
+  font-weight: 300;
+}
+#contact footer nav a:hover {
+  color: #fefefe;
 }
 
 @media screen and (max-width: 768px) {

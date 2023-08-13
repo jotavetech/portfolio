@@ -62,3 +62,12 @@ html {
 ::-webkit-scrollbar-thumb {
   background-color: $color-main;
 }
+
+a {
+  color: $link-color;
+  transition: color 0.2s;
+}
+
+a:hover {
+  color: $link-color-hover;
+}
