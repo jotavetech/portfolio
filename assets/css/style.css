@@ -206,7 +206,7 @@ html {
   object-fit: cover;
   border-radius: 10px;
 }
-#projects ul li:nth-child(2) {
+#projects ul .right {
   flex-direction: row-reverse;
   background: #000;
   color: #fff;
@@ -228,7 +228,7 @@ html {
   #projects ul li .presentation p {
     font-size: 24px;
   }
-  #projects ul li:nth-child(2) {
+  #projects ul .right {
     flex-direction: column;
   }
 }
