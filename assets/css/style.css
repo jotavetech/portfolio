@@ -334,6 +334,7 @@ a:hover {
 @media screen and (max-width: 768px) {
   #contact form {
     width: 320px;
+    height: 250px;
   }
 }
 #back-top {
