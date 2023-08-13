@@ -7,21 +7,27 @@
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
   <body>
-    <div id="social">
-      <a href="https://github.com/jotavetech" target="_blank">
-        <img
-          src="assets/img/github.svg"
-          alt="Link to github jotavetech profile"
-        />
+    <button id="back-top">
+      <img
+        src="assets/img/arrow-top.svg"
+        alt="botão para voltar ao inicio da página"
+      />
+    </button>
+
+    <div id="social" aria-label="Links do github e do linkedin">
+      <a
+        href="https://github.com/jotavetech"
+        target="_blank"
+        aria-label="Link para o meu perfil do github"
+      >
+        <img src="assets/img/github.svg" alt="Github logo" />
       </a>
       <a
         href="https://www.linkedin.com/in/jo%C3%A3o-vitor-gugel/"
         target="_blank"
+        aria-label="Link para meu perfil no linkedin"
       >
-        <img
-          src="assets/img/linkedin.svg"
-          alt="Link to linkedin jotavetech profile"
-        />
+        <img src="assets/img/linkedin.svg" alt="Linkeding logo" />
       </a>
     </div>
 
@@ -31,31 +37,40 @@
         <p>2023</p>
       </header>
       <section id="hero" class="main-content top">
-        <h2>Olá, eu sou o <span>João Vitor, (jotavetech)</span>.</h2>
+        <h2 aria-label="Descrição de quem eu sou">
+          Olá, eu sou o <span>João Vitor, (jotavetech)</span>.
+        </h2>
         <p>Desenvolvedor web.</p>
       </section>
     </div>
 
-    <section id="about" class="main-content bottom">
+    <section
+      id="about"
+      class="main-content bottom"
+      aria-label="Área sobre mim e o que faço"
+    >
       <div class="container">
         <h2>Eu desenvolvo <span>aplicações que facilitam</span> a sua vida.</h2>
-        <p>
+        <p aria-label="Tecnologias que uso">
           Usando a combinação de várias tecnologias open-source e seguras.
           (React, Typescript, NodeJs, Firebase, etc..).
         </p>
       </div>
     </section>
 
-    <section id="projects">
+    <section id="projects" aria-label="Área aonde apresento alguns projetos">
       <ul>
         <li>
           <div class="presentation secondary">
             <h3>INCONTROL</h3>
-            <p>
+            <p aria-label="Descrição do projeto inControl">
               Um aplicativo que ajuda você a ter controle do que entra e sai da
               sua conta.
             </p>
-            <a href="https://incontrol.vercel.app/" target="_blank"
+            <a
+              href="https://incontrol.vercel.app/"
+              target="_blank"
+              aria-label="Link para o projeto"
               >Ver projeto</a
             >
           </div>
@@ -68,11 +83,14 @@
         <li class="right">
           <div class="presentation">
             <h3>KANBAN</h3>
-            <p>
+            <p aria-label="Descrição do projeto kanban">
               Um aplicativo que ajuda você a ter controle das tarefas do seu dia
               a dia.
             </p>
-            <a href="https://kanbajao.vercel.app/" target="_blank"
+            <a
+              href="https://kanbajao.vercel.app/"
+              target="_blank"
+              aria-label="Link para o projeto"
               >Ver projeto</a
             >
           </div>
@@ -84,16 +102,25 @@
         </li>
       </ul>
     </section>
-    <section id="contact">
+    <section id="contact" aria-label="Área para entrar em contato comigo">
       <h2>CONTATO</h2>
       <p>Entre em contato comigo.</p>
       <form>
-        <input type="text" placeholder="Nome" />
-        <input type="email" placeholder="Email" />
-        <textarea placeholder="Conteudo"></textarea>
-        <button type="submit">Enviar mensagem</button>
+        <input type="text" placeholder="Nome" aria-label="Colocar seu nome" />
+        <input
+          type="email"
+          placeholder="Email"
+          aria-label="Colocar seu email"
+        />
+        <textarea
+          placeholder="Conteudo"
+          aria-label="Colocar conteudo da mensagem"
+        ></textarea>
+        <button type="submit" aria-label="Botão para enviar a mensagem">
+          Enviar mensagem
+        </button>
       </form>
-      <footer>
+      <footer aria-label="Footer do portfolio com mais links.">
         <p>
           Made with ❤️ by
           <a href="https://github.com/jotavetech" target="_blank">jotavetech</a>
@@ -112,5 +139,7 @@
         </nav>
       </footer>
     </section>
+
+    <script src="./assets/js/back-top.js"></script>
   </body>
 </html>

@@ -1,0 +1,22 @@
+#back-top {
+  z-index: 10;
+  position: fixed;
+  right: 35px;
+  bottom: 35px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: $bg-main;
+  box-shadow: 0 0 30px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.2s;
+  cursor: pointer;
+
+  img {
+    width: 30px;
+    height: 30px;
+    display: inline;
+  }
+}
