@@ -1,0 +1,29 @@
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 90px;
+
+  h1 {
+    font-size: 36px;
+    span {
+      font-weight: 600;
+    }
+  }
+
+  p {
+    color: $color-gray;
+    font-size: 14px;
+    font-weight: 500;
+  }
+}
+
+@include responsive-mobile {
+  #header {
+    height: 70px;
+
+    h1 {
+      font-size: 30px;
+    }
+  }
+}

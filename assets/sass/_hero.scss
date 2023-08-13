@@ -1,0 +1,37 @@
+#hero {
+  height: calc(100vh - 90px);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  h2 {
+    font-size: 85px;
+    margin-bottom: 10px;
+    span {
+      font-weight: 600;
+    }
+  }
+
+  p {
+    font-size: 24px;
+  }
+}
+
+@include responsive-min-desktop {
+  #hero {
+    h2 {
+      font-size: 70px;
+    }
+  }
+}
+
+@include responsive-tablet {
+  #hero {
+    h2 {
+      font-size: 50px;
+    }
+    p {
+      font-size: 20px;
+    }
+  }
+}

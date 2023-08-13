@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap");
+
+@mixin responsive-desktop {
+  @media screen and (max-width: 1700px) {
+    @content;
+  }
+}
+
+@mixin responsive-min-desktop {
+  @media screen and (max-width: 1200px) {
+    @content;
+  }
+}
+
+@mixin responsive-tablet {
+  @media screen and (max-width: 992px) {
+    @content;
+  }
+}
+
+@mixin responsive-mobile {
+  @media screen and (max-width: 768px) {
+    @content;
+  }
+}
+
+$bg-main: #fff;
+$bg-secondary: #000;
+$bg-third: #f3f3f3;
+
+$bg-item: #101010;
+
+$color-main: #000;
+$color-secondary: #fff;
+$link-color: #0076ff;
+
+$color-gray: #7e7e7e;
+
+$font-main: "Inter", sans-serif;

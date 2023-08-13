@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+::selection {
+  background-color: #000;
+  color: #000;
+}
+
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+h1,
+h2 {
+  font-weight: normal;
+}
+
+button,
+input {
+  border: 0;
+  font-family: "Inter", sans-serif;
+}
+button:focus,
+input:focus {
+  border: 0;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #fff;
+  overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #000;
+}
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 90px;
+}
+#header h1 {
+  font-size: 36px;
+}
+#header h1 span {
+  font-weight: 600;
+}
+#header p {
+  color: #7e7e7e;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 768px) {
+  #header {
+    height: 70px;
+  }
+  #header h1 {
+    font-size: 30px;
+  }
+}
+#hero {
+  height: calc(100vh - 90px);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+#hero h2 {
+  font-size: 85px;
+  margin-bottom: 10px;
+}
+#hero h2 span {
+  font-weight: 600;
+}
+#hero p {
+  font-size: 24px;
+}
+
+@media screen and (max-width: 1200px) {
+  #hero h2 {
+    font-size: 70px;
+  }
+}
+@media screen and (max-width: 992px) {
+  #hero h2 {
+    font-size: 50px;
+  }
+  #hero p {
+    font-size: 20px;
+  }
+}
+body {
+  background: #fff;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1700px) {
+  body {
+    max-width: 1000px;
+  }
+}
+@media screen and (max-width: 992px) {
+  body {
+    max-width: 600px;
+  }
+}
+@media screen and (max-width: 768px) {
+  body {
+    max-width: 320px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
