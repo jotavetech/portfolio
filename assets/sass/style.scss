@@ -1,4 +1,4 @@
-@import "variables", "reset", "header", "hero";
+@import "variables", "reset", "header", "hero", "about";
 
 * {
   // border: 1px solid red;
@@ -6,24 +6,27 @@
 
 body {
   background: $bg-main;
+}
+
+.container {
   max-width: 1300px;
   margin: 0 auto;
 }
 
 @include responsive-desktop {
-  body {
+  .container {
     max-width: 1000px;
   }
 }
 
 @include responsive-tablet {
-  body {
+  .container {
     max-width: 600px;
   }
 }
 
 @include responsive-mobile {
-  body {
+  .container {
     max-width: 320px;
   }
 }

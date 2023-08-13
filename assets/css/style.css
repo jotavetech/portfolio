@@ -128,24 +128,33 @@ html {
     font-size: 20px;
   }
 }
+#about {
+  height: 100vh;
+  width: 100%;
+  background: #000;
+}
+
 body {
   background: #fff;
+}
+
+.container {
   max-width: 1300px;
   margin: 0 auto;
 }
 
 @media screen and (max-width: 1700px) {
-  body {
+  .container {
     max-width: 1000px;
   }
 }
 @media screen and (max-width: 992px) {
-  body {
+  .container {
     max-width: 600px;
   }
 }
 @media screen and (max-width: 768px) {
-  body {
+  .container {
     max-width: 320px;
   }
 }
