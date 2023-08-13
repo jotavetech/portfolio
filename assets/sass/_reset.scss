@@ -55,12 +55,13 @@ html {
   font-size: 62.5%;
 }
 ::-webkit-scrollbar {
+  width: 12px;
 }
 ::-webkit-scrollbar-track {
   background-color: $bg-main;
 }
 ::-webkit-scrollbar-thumb {
-  background-color: $color-main;
+  background: $bg-item;
 }
 
 a {

@@ -64,12 +64,16 @@ html {
   font-size: 62.5%;
 }
 
+::-webkit-scrollbar {
+  width: 12px;
+}
+
 ::-webkit-scrollbar-track {
   background-color: #fff;
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #000;
+  background: #101010;
 }
 
 a {
