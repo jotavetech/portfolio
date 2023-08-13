@@ -35,3 +35,9 @@
     }
   }
 }
+
+@include responsive-mobile {
+  #hero {
+    height: calc(100vh - 70px);
+  }
+}
