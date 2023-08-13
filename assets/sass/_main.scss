@@ -1,5 +1,5 @@
-#hero {
-  height: calc(100vh - 90px);
+.main-content {
+  height: 100vh;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -17,8 +17,17 @@
   }
 }
 
+.main-content.top {
+  height: calc(100vh - 90px);
+}
+
+.main-content.bottom {
+  background: $bg-secondary;
+  color: $color-secondary;
+}
+
 @include responsive-min-desktop {
-  #hero {
+  .main-content {
     h2 {
       font-size: 70px;
     }
@@ -26,7 +35,7 @@
 }
 
 @include responsive-tablet {
-  #hero {
+  .main-content {
     h2 {
       font-size: 50px;
     }
@@ -37,7 +46,7 @@
 }
 
 @include responsive-mobile {
-  #hero {
+  .main-content.top {
     height: calc(100vh - 70px);
   }
 }
