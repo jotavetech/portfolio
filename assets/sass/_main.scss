@@ -7,9 +7,14 @@
   h2 {
     font-size: 85px;
     margin-bottom: 10px;
-    span {
+    .bold {
       font-weight: 600;
     }
+  }
+
+  .bg {
+    background: $color-secondary;
+    color: $color-main;
   }
 
   p {
