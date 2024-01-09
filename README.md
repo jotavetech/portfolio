@@ -9,7 +9,6 @@
 - **Home:** Breve apresentação;
 - **Quem sou:** Aqui explico o que faço e algumas das tecnologias que uso;
 - **Projetos:** Apresento os principais projetos desenvolvidos com uma imagem e link para visitar;
-- **Contato:** Deixo um formulario para você preencher e entrar em contato comigo facilmente;
 
 ---
 
@@ -21,6 +20,8 @@ Para o desenvolvimento deste site utilizei as seguintes tecnologias:
 - Sass;
 - JavaScript;
 - ScrollReveal;
+- Git;
+- Figma
 
 ---
 
