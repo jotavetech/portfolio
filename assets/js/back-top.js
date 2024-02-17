@@ -17,3 +17,13 @@ const showButton = () => {
 
   backButton.style.opacity = "0%";
 };
+
+const dynamicYear = () => {
+  const dateElement = document.querySelector("#year");
+
+  const atualYear = new Date().getFullYear();
+
+  dateElement.innerText = atualYear;
+};
+
+dynamicYear();
