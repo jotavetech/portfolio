@@ -73,13 +73,17 @@
     <div class="container">
       <header id="header">
         <h1><span>jotave</span>tech</h1>
-        <p id="year">2024</p>
+        <div>
+          <span id="change-language">Ver em PT-BR</span>
+          <p id="year">2024</p>
+        </div>
       </header>
       <section id="hero" class="main-content top">
-        <h2 aria-label="Descrição de quem eu sou">
-          Olá, eu sou o <span class="bold">João Vitor, (jotavetech)</span>.
+        <h2 aria-label="Descrição de quem eu sou" id="hero-text">
+          Olá, eu sou o
+          <span class="bold">João Vitor, (jotavetech)</span>.
         </h2>
-        <p>Desenvolvedor de software.</p>
+        <p id="hero-description">Desenvolvedor de software.</p>
       </section>
     </div>
 
@@ -89,11 +93,11 @@
       aria-label="Área sobre mim e o que faço"
     >
       <div class="container">
-        <h2>
+        <h2 id="about-text">
           Eu <span class="bg">desenvolvo</span>
           <span class="bold">aplicações que facilitam</span> a sua vida.
         </h2>
-        <p aria-label="Tecnologias que uso">
+        <p aria-label="Tecnologias que uso" id="about-description">
           Usando a combinação de várias tecnologias open-source e seguras.
           (Rust, Typescript, NextJS, SQL, etc..).
         </p>
@@ -105,7 +109,10 @@
         <li>
           <div class="presentation secondary">
             <h3>INCONTROL</h3>
-            <p aria-label="Descrição do projeto inControl">
+            <p
+              aria-label="Descrição do projeto inControl"
+              id="first-project-text"
+            >
               Um aplicativo que ajuda você a ter controle do que entra e sai da
               sua conta.
             </p>
@@ -113,6 +120,7 @@
               href="https://incontrol.vercel.app/"
               target="_blank"
               aria-label="Link para o projeto"
+              class="see-project-btn"
               >Ver projeto</a
             >
           </div>
@@ -125,7 +133,10 @@
         <li class="right">
           <div class="presentation">
             <h3>KANBAN</h3>
-            <p aria-label="Descrição do projeto kanban">
+            <p
+              aria-label="Descrição do projeto kanban"
+              id="second-project-text"
+            >
               Um aplicativo que ajuda você a ter controle das tarefas do seu dia
               a dia.
             </p>
@@ -133,6 +144,7 @@
               href="https://kanbajao.vercel.app/"
               target="_blank"
               aria-label="Link para o projeto"
+              class="see-project-btn"
               >Ver projeto</a
             >
           </div>
@@ -158,13 +170,13 @@
           <a href="https://instagram.com/jaoproprio" target="_blank"
             >Instagram</a
           >
-          <!-- <a href=""target="_blank">Links</a> -->
         </nav>
       </footer>
     </section>
 
     <script src="https://unpkg.com/scrollreveal"></script>
     <script src="./assets/js/back-top.js"></script>
+    <script src="./assets/js/languages.js"></script>
 
     <script>
       ScrollReveal().reveal("#about .container", { delay: 300, reset: true });

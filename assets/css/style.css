@@ -97,7 +97,22 @@ a:hover {
 #header h1 span {
   font-weight: 600;
 }
-#header p {
+#header div {
+  display: flex;
+  align-items: center;
+}
+#header div span {
+  cursor: pointer;
+  margin-right: 30px;
+  font-weight: 500;
+  font-size: 12px;
+  opacity: 65%;
+  transition: opacity 0.2s;
+}
+#header div span:hover {
+  opacity: 100%;
+}
+#header div p {
   color: #7e7e7e;
   font-size: 14px;
   font-weight: 500;
@@ -109,6 +124,9 @@ a:hover {
   }
   #header h1 {
     font-size: 30px;
+  }
+  #header div span {
+    font-size: 10px;
   }
 }
 .main-content {
@@ -327,7 +345,7 @@ body {
 }
 @media screen and (max-width: 992px) {
   .container {
-    max-width: 600px;
+    max-width: 700px;
   }
 }
 @media screen and (max-width: 768px) {

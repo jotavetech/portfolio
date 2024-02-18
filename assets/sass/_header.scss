@@ -11,10 +11,28 @@
     }
   }
 
-  p {
-    color: $color-gray;
-    font-size: 14px;
-    font-weight: 500;
+  div {
+    display: flex;
+    align-items: center;
+
+    span {
+      cursor: pointer;
+      margin-right: 30px;
+      font-weight: 500;
+      font-size: 12px;
+      opacity: 65%;
+      transition: opacity 0.2s;
+    }
+
+    span:hover {
+      opacity: 100%;
+    }
+
+    p {
+      color: $color-gray;
+      font-size: 14px;
+      font-weight: 500;
+    }
   }
 }
 
@@ -24,6 +42,12 @@
 
     h1 {
       font-size: 30px;
+    }
+
+    div {
+      span {
+        font-size: 10px;
+      }
     }
   }
 }

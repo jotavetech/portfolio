@@ -1,0 +1,38 @@
+{
+  "portuguese": {
+    "hero": {
+      "text": "Olá, eu sou o <span class='bold' id='hero-text-bold'>João Vitor, (jotavetech)</span>.",
+      "description": "Desenvolvedor de software."
+    },
+    "about": {
+      "text": "Eu <span class='bg'>desenvolvo</span> <span class='bold'>aplicações que facilitam</span> a sua vida.",
+      "description": "Usando a combinação de várias tecnologias open-source e seguras. (Rust, Typescript, NextJS, SQL, etc..)."
+    },
+    "projects": {
+      "firstText": "Um aplicativo que ajuda você a ter controle do que entra e sai da sua conta.",
+      "secondText": "Um aplicativo que ajuda você a ter controle das tarefas do seu dia a dia.",
+      "seeProject": "Ver projeto"
+    },
+    "utils": {
+      "changeLanguage": "See in EN-US"
+    }
+  },
+  "english": {
+    "hero": {
+      "text": "Hello, I'm <span class='bold' id='hero-text-bold'>João Vitor, (jotavetech)</span>.",
+      "description": "Software developer."
+    },
+    "about": {
+      "text": "I <span class='bg'>made</span> <span class='bold'>aplications that make you life</span> easier.",
+      "description": "Using a diversity of secure, open-source technologies. (Rust, Typescript, NextJS, SQL, etc..)."
+    },
+    "projects": {
+      "firstText": "An application that helps you to stay inControl of your finances.",
+      "secondText": "Control what you want to do with a simple Kanban board",
+      "seeProject": "See live project"
+    },
+    "utils": {
+      "changeLanguage": "Ver em PT-BR"
+    }
+  }
+}
