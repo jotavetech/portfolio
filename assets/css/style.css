@@ -230,6 +230,11 @@ a:hover {
 #projects ul li .presentation p {
   font-size: 50px;
 }
+#projects ul li .presentation .project-techs {
+  opacity: 90%;
+  font-size: 16px;
+  margin: 5px 0;
+}
 #projects ul li .presentation a {
   font-size: 20px;
   margin-top: 5px;
