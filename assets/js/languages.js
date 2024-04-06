@@ -4,6 +4,7 @@ const aboutText = document.querySelector("#about-text");
 const aboutDescription = document.querySelector("#about-description");
 const firstProjectText = document.querySelector("#first-project-text");
 const secondProjectText = document.querySelector("#second-project-text");
+const thirdProjectText = document.querySelector("#third-project-text");
 const seeProjectBtn = document.querySelectorAll(".see-project-btn");
 
 const changeLanguageBtn = document.querySelector("#change-language");
@@ -50,9 +51,9 @@ const setContent = async (language) => {
 
   firstProjectText.innerHTML = data.projects.firstText;
   secondProjectText.innerHTML = data.projects.secondText;
+  thirdProjectText.innerHTML = data.projects.thirdText;
 
-  seeProjectBtn[0].innerHTML = data.projects.seeProject;
-  seeProjectBtn[1].innerHTML = data.projects.seeProject;
+  seeProjectBtn.forEach((btn) => (btn.innerHTML = data.projects.seeProject));
 
   changeLanguageBtn.innerHTML = data.utils.changeLanguage;
 };

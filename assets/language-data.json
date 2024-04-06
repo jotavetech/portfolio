@@ -11,6 +11,7 @@
     "projects": {
       "firstText": "Um aplicativo que ajuda você a ter controle do que entra e sai da sua conta.",
       "secondText": "Um aplicativo que ajuda você a ter controle das tarefas do seu dia a dia.",
+      "thirdText": "Um jogo para treinar seu conhecimento em sistemas numéricos.",
       "seeProject": "Ver projeto"
     },
     "utils": {
@@ -29,6 +30,7 @@
     "projects": {
       "firstText": "An application that helps you to stay inControl of your finances.",
       "secondText": "Control what you want to do with a simple Kanban board",
+      "thirdText": "A game to train your knowledge in numeric systems.",
       "seeProject": "See live project"
     },
     "utils": {
