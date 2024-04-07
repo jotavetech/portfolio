@@ -24,7 +24,7 @@
       "description": "Software developer."
     },
     "about": {
-      "text": "I <span class='bg'>make</span> <span class='bold'>aplications that make you life</span> easier.",
+      "text": "I <span class='bg'>make</span> <span class='bold'>aplications that make your life</span> easier.",
       "description": "Using a diversity of secure, open-source technologies. (Rust, Typescript, NextJS, SQL, etc..)."
     },
     "projects": {
